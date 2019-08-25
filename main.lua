@@ -1,10 +1,5 @@
 
 
 function love.draw()
-
-  value = ("helloooo" == 0)
-
-  muhstring = "Hello World " .. tostring(value);
-
-    love.graphics.print(muhstring, 400, 300)
+    love.graphics.print("Hello World", 640, 480)
 end
